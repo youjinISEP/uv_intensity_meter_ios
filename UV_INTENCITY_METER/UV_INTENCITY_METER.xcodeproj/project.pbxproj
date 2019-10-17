@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		600901A823537BD70083EC11 /* AnalysisPoint5Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600901A723537BD70083EC11 /* AnalysisPoint5Value.swift */; };
+		600901AA23537E540083EC11 /* AnalysisPoint9Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600901A923537E540083EC11 /* AnalysisPoint9Value.swift */; };
+		600901AC23537EFA0083EC11 /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600901AB23537EFA0083EC11 /* StatsViewController.swift */; };
+		600901AE23537F1D0083EC11 /* CalibrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600901AD23537F1D0083EC11 /* CalibrationViewController.swift */; };
+		600901B02355F4B30083EC11 /* BluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600901AF2355F4B30083EC11 /* BluetoothViewController.swift */; };
+		600901B22355F4CE0083EC11 /* TopBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600901B12355F4CE0083EC11 /* TopBarViewController.swift */; };
+		600A7BF92351E62900C1F581 /* AnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600A7BF82351E62900C1F581 /* AnalysisViewController.swift */; };
+		60B19522233E58D900ABDA34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B19521233E58D900ABDA34 /* AppDelegate.swift */; };
+		60B19524233E58D900ABDA34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B19523233E58D900ABDA34 /* ViewController.swift */; };
+		60B19527233E58D900ABDA34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B19525233E58D900ABDA34 /* Main.storyboard */; };
+		60B1952C233E58DA00ABDA34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B1952B233E58DA00ABDA34 /* Assets.xcassets */; };
+		60B195372340E3C100ABDA34 /* GaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B195362340E3C100ABDA34 /* GaugeView.swift */; };
+		60B195392340E41200ABDA34 /* MeasurementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B195382340E41200ABDA34 /* MeasurementViewController.swift */; };
+		60B1953D234F0DDB00ABDA34 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B1953C234F0DDB00ABDA34 /* ContentViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		600901A723537BD70083EC11 /* AnalysisPoint5Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisPoint5Value.swift; sourceTree = "<group>"; };
+		600901A923537E540083EC11 /* AnalysisPoint9Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisPoint9Value.swift; sourceTree = "<group>"; };
+		600901AB23537EFA0083EC11 /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		600901AD23537F1D0083EC11 /* CalibrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalibrationViewController.swift; sourceTree = "<group>"; };
+		600901AF2355F4B30083EC11 /* BluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothViewController.swift; sourceTree = "<group>"; };
+		600901B12355F4CE0083EC11 /* TopBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarViewController.swift; sourceTree = "<group>"; };
+		600A7BF82351E62900C1F581 /* AnalysisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisViewController.swift; sourceTree = "<group>"; };
+		60B1951E233E58D900ABDA34 /* UV_INTENCITY_METER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UV_INTENCITY_METER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B19521233E58D900ABDA34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60B19523233E58D900ABDA34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60B19526233E58D900ABDA34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60B1952B233E58DA00ABDA34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60B19530233E58DA00ABDA34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B195362340E3C100ABDA34 /* GaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeView.swift; sourceTree = "<group>"; };
+		60B195382340E41200ABDA34 /* MeasurementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementViewController.swift; sourceTree = "<group>"; };
+		60B1953C234F0DDB00ABDA34 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60B1951B233E58D900ABDA34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60B19515233E58D900ABDA34 = {
+			isa = PBXGroup;
+			children = (
+				60B19520233E58D900ABDA34 /* UV_INTENCITY_METER */,
+				60B1951F233E58D900ABDA34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60B1951F233E58D900ABDA34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60B1951E233E58D900ABDA34 /* UV_INTENCITY_METER.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60B19520233E58D900ABDA34 /* UV_INTENCITY_METER */ = {
+			isa = PBXGroup;
+			children = (
+				60B19521233E58D900ABDA34 /* AppDelegate.swift */,
+				60B19523233E58D900ABDA34 /* ViewController.swift */,
+				60B1953C234F0DDB00ABDA34 /* ContentViewController.swift */,
+				60B195382340E41200ABDA34 /* MeasurementViewController.swift */,
+				60B195362340E3C100ABDA34 /* GaugeView.swift */,
+				600A7BF82351E62900C1F581 /* AnalysisViewController.swift */,
+				600901A723537BD70083EC11 /* AnalysisPoint5Value.swift */,
+				600901A923537E540083EC11 /* AnalysisPoint9Value.swift */,
+				600901AB23537EFA0083EC11 /* StatsViewController.swift */,
+				600901AD23537F1D0083EC11 /* CalibrationViewController.swift */,
+				60B19525233E58D900ABDA34 /* Main.storyboard */,
+				60B1952B233E58DA00ABDA34 /* Assets.xcassets */,
+				60B19530233E58DA00ABDA34 /* Info.plist */,
+				600901AF2355F4B30083EC11 /* BluetoothViewController.swift */,
+				600901B12355F4CE0083EC11 /* TopBarViewController.swift */,
+			);
+			path = UV_INTENCITY_METER;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60B1951D233E58D900ABDA34 /* UV_INTENCITY_METER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B19533233E58DA00ABDA34 /* Build configuration list for PBXNativeTarget "UV_INTENCITY_METER" */;
+			buildPhases = (
+				60B1951A233E58D900ABDA34 /* Sources */,
+				60B1951B233E58D900ABDA34 /* Frameworks */,
+				60B1951C233E58D900ABDA34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UV_INTENCITY_METER;
+			productName = UV_INTENCITY_METER;
+			productReference = 60B1951E233E58D900ABDA34 /* UV_INTENCITY_METER.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60B19516233E58D900ABDA34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = youjin;
+				TargetAttributes = {
+					60B1951D233E58D900ABDA34 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 60B19519233E58D900ABDA34 /* Build configuration list for PBXProject "UV_INTENCITY_METER" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60B19515233E58D900ABDA34;
+			productRefGroup = 60B1951F233E58D900ABDA34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60B1951D233E58D900ABDA34 /* UV_INTENCITY_METER */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60B1951C233E58D900ABDA34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B1952C233E58DA00ABDA34 /* Assets.xcassets in Resources */,
+				60B19527233E58D900ABDA34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60B1951A233E58D900ABDA34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600901AA23537E540083EC11 /* AnalysisPoint9Value.swift in Sources */,
+				60B19524233E58D900ABDA34 /* ViewController.swift in Sources */,
+				60B195392340E41200ABDA34 /* MeasurementViewController.swift in Sources */,
+				600A7BF92351E62900C1F581 /* AnalysisViewController.swift in Sources */,
+				60B19522233E58D900ABDA34 /* AppDelegate.swift in Sources */,
+				60B1953D234F0DDB00ABDA34 /* ContentViewController.swift in Sources */,
+				60B195372340E3C100ABDA34 /* GaugeView.swift in Sources */,
+				600901B02355F4B30083EC11 /* BluetoothViewController.swift in Sources */,
+				600901B22355F4CE0083EC11 /* TopBarViewController.swift in Sources */,
+				600901AE23537F1D0083EC11 /* CalibrationViewController.swift in Sources */,
+				600901AC23537EFA0083EC11 /* StatsViewController.swift in Sources */,
+				600901A823537BD70083EC11 /* AnalysisPoint5Value.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60B19525233E58D900ABDA34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60B19526233E58D900ABDA34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60B19531233E58DA00ABDA34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60B19532233E58DA00ABDA34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60B19534233E58DA00ABDA34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2G88ZV3F5;
+				INFOPLIST_FILE = UV_INTENCITY_METER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "youjin.UV-INTENCITY-METER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60B19535233E58DA00ABDA34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2G88ZV3F5;
+				INFOPLIST_FILE = UV_INTENCITY_METER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "youjin.UV-INTENCITY-METER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60B19519233E58D900ABDA34 /* Build configuration list for PBXProject "UV_INTENCITY_METER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B19531233E58DA00ABDA34 /* Debug */,
+				60B19532233E58DA00ABDA34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B19533233E58DA00ABDA34 /* Build configuration list for PBXNativeTarget "UV_INTENCITY_METER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B19534233E58DA00ABDA34 /* Debug */,
+				60B19535233E58DA00ABDA34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60B19516233E58D900ABDA34 /* Project object */;
+}

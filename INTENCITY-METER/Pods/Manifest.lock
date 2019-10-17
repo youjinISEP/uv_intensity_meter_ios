@@ -1,0 +1,16 @@
+PODS:
+  - ABGaugeViewKit (1.0.1)
+
+DEPENDENCIES:
+  - ABGaugeViewKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ABGaugeViewKit
+
+SPEC CHECKSUMS:
+  ABGaugeViewKit: b69c855c2878e5ba49605b0662d409c1577ed198
+
+PODFILE CHECKSUM: abdf7d47e2159b61d8fee86c20644c8d67686a0a
+
+COCOAPODS: 1.7.5
